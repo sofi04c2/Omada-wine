@@ -1,4 +1,7 @@
 ---
+import { VALID_INPUT_FORMATS } from "astro/dist/assets/consts";
+
+import "../styles/mutual.css";
 ---
 
 <html lang="en">
@@ -7,28 +10,45 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="stylesheet" href="https://use.typekit.net/aqy4phb.css">
+    <link rel="stylesheet" href="https://use.typekit.net/aqy4phb.css" />
     <title>Astro</title>
   </head>
   <body>
-    <section>
+    <section class="forside">
       <nav>
         <ul>
           <li>
-            <a href="/#"> wines</a>
+            <a href="/#"> WINES</a>
           </li>
           <li>
-            <a href="/#"> winesmakers</a>
+            <a href="/#"> WINEMAKERS</a>
           </li>
           <li>
-            <a href="/#"> regions</a>
+            <a href="/#"> REGIONS</a>
           </li>
           <li>
-            <a href="/#"> boxes</a>
+            <a href="/#"> BOXES</a>
           </li>
         </ul>
       </nav>
-      <img src="/img/index-wine.jpg" alt="wine" />
+    </section>
+    <section class="forside">
+      <nav>
+        <ul>
+          <li>
+            <a href="/#"> EVENTS</a>
+          </li>
+          <li>
+            <a href="/#"> TESTIMONIALS</a>
+          </li>
+          <li>
+            <a href="/#"> GOODS</a>
+          </li>
+          <li>
+            <a href="/#"> PARTNERS</a>
+          </li>
+        </ul>
+      </nav>
     </section>
   </body>
 </html>
