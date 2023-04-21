@@ -45,10 +45,6 @@ nav a {
   height: 50vh;
 }
 
-img {
-  grid-column: 1/1;
-}
-
 .forside1 {
   background-image: url("/img/forside-deli.png");
   background-size: cover;
