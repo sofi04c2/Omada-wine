@@ -27,14 +27,10 @@ body {
 }
 
 .eventPil {
-  width: 5%;
+  width: 20%;
 }
 
 .testimonial {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-.testimonial img {
-  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
