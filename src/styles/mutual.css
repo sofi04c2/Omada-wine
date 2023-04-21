@@ -5,10 +5,15 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "aviano-sans", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+h4 {
+  font-size: x-small;
 }
 
 p {

@@ -1,4 +1,7 @@
 ---
+import "../styles/deli.css";
+import "../styles/mutual.css";
+import Button from "../component/Button.astro";
 ---
 
 <html lang="en">
@@ -12,7 +15,40 @@
   </head>
   <body>
     <header>
-      <h1>OMADA.DELI</h1>
+      <section class="navigation">
+        <h1>OMADA.DELI</h1>
+        <div class="nav-img">
+          <img src="/img/search.webp" />
+          <img src="/img/person.png" />
+          <img src="/img/shopping-cart.png" />
+          <img src="/img/favorit.png" />
+        </div>
+      </section>
+
+      <section class="forside1">
+        <nav>
+          <ul>
+            <li>
+              <a href="/deli"> EVENTS</a>
+            </li>
+            <li>
+              <a href="/deli"> TESTIMONIALS</a>
+            </li>
+            <li>
+              <a href="/deli"> GOODS</a>
+            </li>
+            <li>
+              <a href="/deli"> PARTNERS</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
+
+    <section class="text">
+      <h2>A MEETING <br />PLACE FOR<br /> ØSTERBRO <br />LOCALS</h2>
+
+      <h4>(AND ANYONE ELSE).</h4>
+    </section>
   </body>
 </html>

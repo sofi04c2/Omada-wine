@@ -1,0 +1,19 @@
+body {
+  background-color: #fffef2;
+}
+
+.nav-img img {
+  height: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.text {
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+}
