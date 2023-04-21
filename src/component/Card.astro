@@ -1,9 +1,28 @@
 ---
-const { text } = Astro.props;
+const { text, img } = Astro.props;
 ---
 
 <section>
-  <img src="" />
-  <p>{text}</p>
-  <img src="/img/arrow.png" alt="" />
+  <img src={img} alt="events" />
+  <div>
+    <p>{text}</p>
+    <img src="/img/arrow.png" alt="" />
+  </div>
 </section>
+
+<style>
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div {
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+</style>

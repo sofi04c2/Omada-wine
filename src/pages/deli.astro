@@ -2,6 +2,7 @@
 import "../styles/deli.css";
 import "../styles/mutual.css";
 import Button from "../component/Button.astro";
+import Card from "../component/Card.astro";
 ---
 
 <html lang="en">
@@ -60,14 +61,8 @@ import Button from "../component/Button.astro";
     </section>
 
     <section class="events">
-      <div>
-        <img src="/img/event.jpg" />
-        <Button text="Social Dining Event " />
-      </div>
-      <div>
-        <img src="/img/event.jpg" />
-        <Button text="Social Dining Event " />
-      </div>
+      <Card img="/img/event.jpg" text="Social Dining Event " />
+      <Card img="/img/event.jpg" text="Social Dining Event " />
     </section>
   </body>
 </html>

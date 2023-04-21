@@ -21,9 +21,10 @@ body {
 .events {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
-.events img {
+/* .events img {
   width: 90%;
   align-items: center;
-}
+} */
