@@ -6,7 +6,7 @@ const { text, img } = Astro.props;
   <img src={img} alt="events" />
   <div>
     <p>{text}</p>
-    <img src="/img/arrow.png" alt="" />
+    <img src="/img/arrow.png" class="pil" alt="" />
   </div>
 </section>
 
@@ -24,5 +24,9 @@ const { text, img } = Astro.props;
 
   img {
     width: 100%;
+  }
+
+  .pil img {
+    width: 20%;
   }
 </style>
