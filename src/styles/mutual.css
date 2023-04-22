@@ -12,12 +12,17 @@ h4 {
   font-style: normal;
 }
 
+h1 {
+  font-size: 35px;
+}
+
 h4 {
   font-size: x-small;
 }
 
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
 }
 
 ul {
@@ -27,37 +32,24 @@ ul {
   line-height: 100px;
 }
 
-nav {
-  grid-column: 1/1;
-}
-
 nav a {
   text-decoration: none;
   color: rgb(255, 254, 254);
-  padding: 36px 30px;
-  font-family: "orpheuspro", serif;
-  font-weight: 400;
+  padding: 0px 30px;
+  font-family: "aviano-sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   font-style: normal;
 }
 
 .forside {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr; */
   background-image: url("/img/index-wine.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
 }
 
-img {
-  grid-column: 1/1;
-}
-
 .forside1 {
-  /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr; */
   background-image: url("/img/forside-deli.png");
   background-size: cover;
   background-repeat: no-repeat;

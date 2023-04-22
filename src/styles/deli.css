@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  padding-top: 20px;
 }
 
 .text {
@@ -22,9 +23,53 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  padding: 30px;
 }
 
-/* .events img {
-  width: 90%;
-  align-items: center;
-} */
+.eventPil {
+  width: 5%;
+}
+
+.testimonial {
+  display: flex;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.testimonial h2 {
+  font-size: 20px;
+}
+
+p.name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.testimonalImg {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+img.deliImg {
+    width: 100%;
+}
+
+h2.deliText {
+  padding: 30px;
+  text-align: center;
+}
+
+.partnerImg {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  line-height: 30px;
+}

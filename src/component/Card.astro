@@ -4,7 +4,7 @@ const { text, img } = Astro.props;
 
 <section>
   <img src={img} alt="events" />
-  <div>
+  <div class="btn">
     <p>{text}</p>
     <img src="/img/arrow.png" class="pil" alt="" />
   </div>
@@ -16,8 +16,10 @@ const { text, img } = Astro.props;
     flex-direction: column;
   }
 
-  div {
+  .btn {
+    display: flex;
     border: 1px solid black;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
