@@ -12,6 +12,11 @@ body {
   align-items: center;
 }
 
+.front {
+  padding-top: 20px;
+  line-height: 40px;
+}
+
  .deliNav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,6 +44,7 @@ body {
 .text {
   text-align: center;
   line-height: 30px;
+  padding-bottom: 30px;
 }
 
 .text1 {
