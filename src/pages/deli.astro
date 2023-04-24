@@ -19,6 +19,24 @@ import Footer from "../component/Footer.astro";
     <header>
       <section class="navigation">
         <h1>OMADA.DELI</h1>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <a href="/deli"> EVENTS</a>
+              </li>
+              <li>
+                <a href="/deli"> TESTIMONIALS</a>
+              </li>
+              <li>
+                <a href="/deli"> GOODS</a>
+              </li>
+              <li>
+                <a href="/deli"> PARTNERS</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div class="nav-img">
           <img src="/img/search.webp" />
           <img src="/img/person.png" />
@@ -27,91 +45,74 @@ import Footer from "../component/Footer.astro";
         </div>
       </section>
 
-      <section class="forside1">
-        <nav>
-          <ul>
-            <li>
-              <a href="/deli"> EVENTS</a>
-            </li>
-            <li>
-              <a href="/deli"> TESTIMONIALS</a>
-            </li>
-            <li>
-              <a href="/deli"> GOODS</a>
-            </li>
-            <li>
-              <a href="/deli"> PARTNERS</a>
-            </li>
-          </ul>
-        </nav>
+      <section class="text">
+        <img src="/img/forside-deli.png" />
+        <div>
+          <h2>A MEETING <br />PLACE FOR<br /> ØSTERBRO <br />LOCALS</h2>
+          <h4>(AND ANYONE ELSE).</h4>
+          <Button text="Curious? Have a closer look" />
+        </div>
       </section>
+
+      <hr />
+      <section class="text1">
+        <h2>NEWS & EVENTS</h2>
+        <h4>WE CAN'T WAIT TO HOST YOU, YOUR FRIENDS & FAMILY.</h4>
+      </section>
+
+      <section class="events">
+        <Card img="/img/event.jpg" text="Social Dining Event" />
+        <Card img="/img/dining-1.jpg" text="Social Dining Event" />
+        <Card img="/img/dining-2.jpg" text="Social Dining Event" />
+        <Card img="/img/dining-3.jpg" text="Social Dining Event" />
+      </section>
+
+      <hr />
+
+      <h2 class="deliText">DELI GOODS</h2>
+
+      <hr />
+
+      <article class="grid_1_1">
+        <div>
+          <h2>WE GOT JUST WHAT YOU <br /> NEED</h2>
+          <h4>(AND CRAVE)</h4>
+          <div>
+            <p>
+              Thirsty? Peckish? Curious? We’ve got you covered! Omada Wine &
+              Deli feeds your simple needs for life’s better necessities; wine &
+              food.
+            </p>
+          </div>
+
+          <Button text="Read more" />
+        </div>
+
+        <div>
+          <img src="/img/deli-goods.jpg" class="deliImg" alt="cheese" />
+        </div>
+      </article>
+
+      <img src="/img/event-1.jpg" class="testimonalImg" alt="event" />
+      <p class="name">by Emilie</p>
+      <article class="testimonial">
+        <img src="/img/pil-v.png" class="eventPil" alt="" />
+        <h2>"MY ONE-STOP SHOP FOR HOSTINGS..."</h2>
+        <img src="/img/pil-h.png" class="eventPil" alt="" />
+      </article>
+      <Button text="Read testimonial" />
+      <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
+
+      <h2 class="deliText">PARTNERS</h2>
+
+      <hr />
+      <img src="/img/partners.png" class="partnerImg" alt="partnere" />
+
+      <!-- <section class="events"></section> -->
+      <hr />
+      <footer>
+        <Footer />
+      </footer>
     </header>
-
-    <section class="text">
-      <h2>A MEETING <br />PLACE FOR<br /> ØSTERBRO <br />LOCALS</h2>
-
-      <h4>(AND ANYONE ELSE).</h4>
-
-      <Button text="Curious? Have a closer look" />
-    </section>
-
-    <hr />
-    <section class="text">
-      <h2>NEWS & EVENTS</h2>
-      <h4>WE CAN'T WAIT TO HOST YOU, YOUR FRIENDS & FAMILY.</h4>
-    </section>
-    <section class="events">
-      <Card img="/img/event.jpg" text="Social Dining Event" />
-      <Card img="/img/dining-1.jpg" text="Social Dining Event" />
-    </section>
-    <hr />
-    <section class="events">
-      <Card img="/img/dining-2.jpg" text="Social Dining Event" />
-      <Card img="/img/dining-3.jpg" text="Social Dining Event" />
-    </section>
-
-    <hr />
-
-    <h2 class="deliText">DELI GOODS</h2>
-
-    <hr />
-
-    <img src="/img/deli-goods.jpg" class="deliImg" alt="cheese" />
-
-    <article class="grid_1_1">
-      <div>
-        <h2>WE GOT JUST WHAT YOU <br /> NEED</h2>
-        <h4>(AND CRAVE)</h4>
-      </div>
-      <div>
-        <p>
-          Thirsty? Peckish? Curious? We’ve got you covered! Omada Wine & Deli
-          feeds your simple needs for life’s better necessities; wine & food.
-        </p>
-      </div>
-    </article>
-
-    <Button text="Read more" />
-
-    <img src="/img/event-1.jpg" class="testimonalImg" alt="event" />
-    <p class="name">by Emilie</p>
-    <article class="testimonial">
-      <img src="/img/pil-v.png" class="eventPil" alt="" />
-      <h2>"MY ONE-STOP SHOP FOR HOSTINGS..."</h2>
-      <img src="/img/pil-h.png" class="eventPil" alt="" />
-    </article>
-    <Button text="Read testimonial" />
-    <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
-
-    <h2 class="deliText">PARTNERS</h2>
-
-    <hr />
-    <img src="/img/partners.png" class="partnerImg" alt="partnere" />
-
-    <!-- <section class="events"></section> -->
-    <hr />
-    <footer>
-      <Footer />
-    </footer>
   </body>
 </html>
