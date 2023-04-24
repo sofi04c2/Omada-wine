@@ -227,9 +227,25 @@ h2.deliText {
   .grid_1_1_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
     order: -1;
+  }
+
+  .grid_1_1_text h2 {
+    width: 60%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+   .grid_1_1_text h4 {
+    width: 60%;
+    font-size: 15px;
+    line-height: 60px;
+  }
+
+     .grid_1_1_text p {
+    width: 40%;
+    font-size: 15px;
   }
 
   p {
@@ -243,4 +259,5 @@ h2.deliText {
  .deliNav {
   display: none;
  } 
+
 }
