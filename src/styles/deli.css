@@ -117,6 +117,17 @@ h2.deliText {
     justify-content: space-between;
   }
 
+.front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.front h2 {
+  line-height: 50px;
+}
+
   .text1 {
     display: grid;
     grid-template-columns: 1fr;
