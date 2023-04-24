@@ -227,6 +227,7 @@ h2.deliText {
   .grid_1_1_text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
     order: -1;
   }
