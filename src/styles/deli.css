@@ -249,16 +249,12 @@ h2.deliText {
     font-size: 15px;
   }
 
-  p {
-    font-size: 40px;
-  }
-
   .testimonial {
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
  .deliNav {
   display: none;
- } 
+ }
 
 }
