@@ -38,7 +38,6 @@ body {
 
 .text {
   text-align: center;
-  padding: 30px;
   line-height: 30px;
 }
 
@@ -172,9 +171,7 @@ h2.deliText {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    padding: 30px;
     line-height: 30px;
-    width: 100%;
     font-size: x-large;
     justify-content: space-between;
   }
