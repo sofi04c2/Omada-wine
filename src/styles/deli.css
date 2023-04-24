@@ -6,6 +6,21 @@ body {
   height: 20px;
 }
 
+.nav-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ .deliNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ } 
+
+  .deliNav h1 {
+  font-size: 50px;
+ } 
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -221,4 +236,8 @@ h2.deliText {
   .testimonial {
     justify-content: center;
   }
+
+ .deliNav {
+  display: none;
+ } 
 }
