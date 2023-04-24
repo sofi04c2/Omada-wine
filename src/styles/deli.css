@@ -76,7 +76,7 @@ h2.deliText {
 
 .grid_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 20px;
   line-height: 30px;
 }
@@ -144,7 +144,6 @@ h2.deliText {
     line-height: 30px;
   }
 
-
   .events {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -166,6 +165,15 @@ h2.deliText {
     line-height: 30px;
     text-align: center;
   }
+
+  .grid_1_1_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    order: -1;
+  }
+
   p {
     font-size: 40px;
   }
