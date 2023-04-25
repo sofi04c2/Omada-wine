@@ -9,7 +9,7 @@
   <input type="text" name="overskrift" required />
   <label for="text">Message</label>
   <input type="text" name="text" required />
-  <button>Send</button>
+  <button>Go ahead, submit!</button>
 </form>
 </section>
 
@@ -56,20 +56,32 @@ form {
     padding: 20px;
 }
 
+label {
+  padding-bottom: 10px;
+  padding-top: 10px;;
+}
+
 input {
-  width: 75%;
+  width: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
 }
 
 h2 {
   text-align: center;
   line-height: 40px;
+  font-size: 30px;
 }
   button {
-    font-family: "aviano-sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid black;
+    margin-top: 20px;
+    padding: 25px;
   }
 
 @media (min-width: 1024px) {
@@ -79,5 +91,13 @@ section {
   grid-template-columns: 1fr 1fr;
   padding: 50px;
 }
+
+h2 {
+  text-align: center;
+  line-height: 70px;
+  font-size: 50px;
+  width: 78%;
+}
+
 }
 </style>
