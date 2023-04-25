@@ -6,6 +6,20 @@ import Card from "../component/Card.astro";
 import Footer from "../component/Footer.astro";
 import Form from "../component/Form.astro";
 import Testimonial from "../component/Testimonial.astro";
+
+const url = "https://lytiiyuaxzhfwzaykkar.supabase.co/rest/v1/omada";
+const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5dGlpeXVheHpoZnd6YXlra2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzg3ODY2MDgsImV4cCI6MTk5NDM2MjYwOH0.qA8kHlhJamX17bRpM-4rETSyqjgAIxwx_spo7qHeWuo";
+
+const response = await fetch(url, {
+  method:"GET",
+  headers: {
+    apikey: key,
+    'Accept' : 'application/json',
+    'Content-Type' : 'application/json'
+  },
+});
+
+const udsagn = await response.json();
 ---
 
 <html lang="en">
@@ -120,8 +134,11 @@ import Testimonial from "../component/Testimonial.astro";
         </div>
         <Button text="Read more" />
       </article>
-
-      <Testimonial />
+{
+      udsagn.map((testimonial) => {
+        return <Testimonial name={testimonial.name} overskrift ={testimonial.overskrift} text = {testimonial.text} />
+      })
+}
       <Button text="Read testimonial" />
       <Form />
       <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
