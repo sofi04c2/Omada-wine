@@ -32,6 +32,7 @@ const udsagn = await response.json();
     <link rel="stylesheet" href="https://use.typekit.net/aqy4phb.css" />
     <title>Astro</title>
   </head>
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <body>
     <header>
       <section class="deliNav">
@@ -96,6 +97,14 @@ const udsagn = await response.json();
           <img src="/img/cheese.jpg" />
         </div>
         <div class="front">
+          <lottie-player
+          src="https://assets8.lottiefiles.com/packages/lf20_menpm2u0.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+          ></lottie-player>
           <h2>A MEETING <br />PLACE FOR<br /> ØSTERBRO <br />LOCALS</h2>
           <h4>(AND ANYONE ELSE).</h4>
           <Button text="Curious? Have a closer look" />
