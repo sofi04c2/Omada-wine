@@ -57,10 +57,18 @@ nav a {
   height: 50vh;
 }
 
+h2.wineTitle{
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  vertical-align: middle;
+}
+
 @media (min-width: 1024px) {
   img {
     width: 100%;
   }
+
   .body {
     display: grid;
     grid-template-columns: 1fr 1fr;
