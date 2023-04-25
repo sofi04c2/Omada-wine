@@ -1,0 +1,35 @@
+---
+
+---
+
+<section class="splash">
+    <div>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player id="left" src="https://assets5.lottiefiles.com/packages/lf20_M4rAkF.json"  background="transparent" loop autoplay></lottie-player>
+    </div>
+    <div>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player id="right" src="https://assets5.lottiefiles.com/packages/lf20_M4rAkF.json"  background="transparent" loop autoplay></lottie-player>
+    </div>
+</section>
+
+<style>
+    .splash {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+</style>
+
+<script>
+    LottieInteractivity.create({
+    player:'#right',
+    mode:"cursor",
+    actions: [
+        {
+            type: "hover",
+            forceFlag: false
+        }
+    ]
+});
+</script>

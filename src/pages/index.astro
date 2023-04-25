@@ -1,5 +1,6 @@
 ---
 import { VALID_INPUT_FORMATS } from "astro/dist/assets/consts";
+import Splash from "../component/Splash.astro";
 
 import "../styles/mutual.css";
 ---
@@ -13,7 +14,8 @@ import "../styles/mutual.css";
     <link rel="stylesheet" href="https://use.typekit.net/aqy4phb.css" />
     <title>Astro</title>
   </head>
-  <body class="body">
+  <body>
+    <section class="body">
     <section class="forside">
       <nav>
         <ul>
@@ -31,6 +33,7 @@ import "../styles/mutual.css";
           </li>
         </ul>
       </nav>
+      <h2 class="wineTitle">WINE</h2>
     </section>
     <section class="forside1">
       <nav>
@@ -50,5 +53,7 @@ import "../styles/mutual.css";
         </ul>
       </nav>
     </section>
+    </section>
+    <Splash />
   </body>
 </html>

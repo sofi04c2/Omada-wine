@@ -6,6 +6,7 @@ import Card from "../component/Card.astro";
 import Footer from "../component/Footer.astro";
 import Form from "../component/Form.astro";
 import Testimonial from "../component/Testimonial.astro";
+import Splash from "../component/Splash.astro";
 
 const url = "https://lytiiyuaxzhfwzaykkar.supabase.co/rest/v1/omada";
 const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5dGlpeXVheHpoZnd6YXlra2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzg3ODY2MDgsImV4cCI6MTk5NDM2MjYwOH0.qA8kHlhJamX17bRpM-4rETSyqjgAIxwx_spo7qHeWuo";
@@ -134,6 +135,7 @@ const udsagn = await response.json();
         </div>
         <Button text="Read more" />
       </article>
+      <img src="/img/event-1.jpg" class="testimonalImg" alt="event" />
 {
       udsagn.map((testimonial) => {
         return <Testimonial name={testimonial.name} overskrift ={testimonial.overskrift} text = {testimonial.text} />
