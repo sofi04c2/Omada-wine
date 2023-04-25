@@ -1,4 +1,6 @@
 ---
+import Button from "./Button.astro";
+
 const { overskrift, name, text } = Astro.props;
 ---
 
@@ -9,5 +11,6 @@ const { overskrift, name, text } = Astro.props;
     <h2>"{overskrift}..."</h2>
     <img src="/img/pil-h.png" class="eventPil" alt="" />
   </article>
+      <Button text="Read testimonial" />
 
   <script></script>
