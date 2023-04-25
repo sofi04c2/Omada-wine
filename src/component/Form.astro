@@ -53,6 +53,7 @@ form {
     font-family: "aviano-sans", sans-serif;
     font-weight: 700;
     font-style: normal;
+    padding: 20px;
 }
 
 input {
@@ -61,6 +62,7 @@ input {
 
 h2 {
   text-align: center;
+  line-height: 40px;
 }
   button {
     font-family: "aviano-sans", sans-serif;
@@ -70,23 +72,12 @@ h2 {
     padding-right: 20px;
   }
 
-/* @media (min-width: 1024px) {
-  form {
-    display: flex;
-    justify-content: center;
-    font-family: "aviano-sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    padding-top: 20px;
-    gap: 15px;
-  }
+@media (min-width: 1024px) {
 
-  button {
-    font-family: "aviano-sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-} */
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+}
 </style>

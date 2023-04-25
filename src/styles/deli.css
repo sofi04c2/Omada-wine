@@ -94,6 +94,7 @@ p.name {
 .testimonalImg {
   /* padding-top: 50px; */
   padding-bottom: 20px;
+  width: 100%;
 }
 
 img.deliImg {
@@ -220,7 +221,7 @@ font-size: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 20%;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
   }
 
