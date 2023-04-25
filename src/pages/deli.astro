@@ -5,6 +5,7 @@ import Button from "../component/Button.astro";
 import Card from "../component/Card.astro";
 import Footer from "../component/Footer.astro";
 import Form from "../component/Form.astro";
+import Testimonial from "../component/Testimonial.astro";
 ---
 
 <html lang="en">
@@ -118,30 +119,32 @@ import Form from "../component/Form.astro";
           </p>
         </div>
         <Button text="Read more" />
-      </article>
+        <!-- </article>
       <img src="/img/event-1.jpg" class="testimonalImg" alt="event" />
       <p class="name">by Emilie</p>
       <article class="testimonial">
         <img src="/img/pil-v.png" class="eventPil" alt="" />
         <h2>"MY ONE-STOP SHOP FOR HOSTINGS..."</h2>
         <img src="/img/pil-h.png" class="eventPil" alt="" />
+      </article> -->
+        <Testimonial />
+        <Button text="Read testimonial" />
+        <Form />
+        <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
+
+        <h2 class="deliText">PARTNERS</h2>
+
+        <hr />
+        <img src="/img/partners.png" class="partnerImg" alt="partnere" />
+
+        <!-- <section class="events"></section> -->
+        <hr />
+        <footer>
+          <Footer />
+        </footer>
       </article>
-      <Button text="Read testimonial" />
-      <Form />
-      <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
-
-      <h2 class="deliText">PARTNERS</h2>
-
-      <hr />
-      <img src="/img/partners.png" class="partnerImg" alt="partnere" />
-
-      <!-- <section class="events"></section> -->
-      <hr />
-      <footer>
-        <Footer />
-      </footer>
     </header>
   </body>
-</html>
 
-<script></script>
+  <script></script>
+</html>
