@@ -4,6 +4,7 @@ import "../styles/mutual.css";
 import Button from "../component/Button.astro";
 import Card from "../component/Card.astro";
 import Footer from "../component/Footer.astro";
+import Form from "../component/Form.astro";
 ---
 
 <html lang="en">
@@ -17,9 +18,9 @@ import Footer from "../component/Footer.astro";
   </head>
   <body>
     <header>
-<section class="deliNav">
-  <h1>OMADA.DELI</h1>
-    <div class="nav-img">
+      <section class="deliNav">
+        <h1>OMADA.DELI</h1>
+        <div class="nav-img">
           <img src="/img/search.webp" />
           <img src="/img/person.png" />
           <img src="/img/shopping-cart.png" />
@@ -27,24 +28,24 @@ import Footer from "../component/Footer.astro";
         </div>
       </section>
 
-  <section class="forside1">
-      <nav>
-        <ul>
-          <li>
-            <a href="/deli"> EVENTS</a>
-          </li>
-          <li>
-            <a href="/deli"> TESTIMONIALS</a>
-          </li>
-          <li>
-            <a href="/deli"> GOODS</a>
-          </li>
-          <li>
-            <a href="/deli"> PARTNERS</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
+      <section class="forside1">
+        <nav>
+          <ul>
+            <li>
+              <a href="/deli"> EVENTS</a>
+            </li>
+            <li>
+              <a href="/deli"> TESTIMONIALS</a>
+            </li>
+            <li>
+              <a href="/deli"> GOODS</a>
+            </li>
+            <li>
+              <a href="/deli"> PARTNERS</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
 
       <section class="navigation">
         <h1>OMADA.DELI</h1>
@@ -105,19 +106,18 @@ import Footer from "../component/Footer.astro";
       <hr />
 
       <article class="grid_1_1">
-          <img src="/img/deli-goods.jpg" class="deliImg" alt="cheese" />
+        <img src="/img/deli-goods.jpg" class="deliImg" alt="cheese" />
         <div class="grid_1_1_text">
           <div>
-          <h2>WE GOT JUST WHAT YOU <br /> NEED</h2>
-          <h4>(AND CRAVE).</h4>
+            <h2>WE GOT JUST WHAT YOU <br /> NEED</h2>
+            <h4>(AND CRAVE).</h4>
           </div>
-            <p>
-              Thirsty? Peckish? Curious? We’ve got you covered! Omada Wine &
-              Deli feeds your simple needs for life’s better necessities; wine &
-              food.
-            </p>
-            </div>
-          <Button text="Read more" />
+          <p>
+            Thirsty? Peckish? Curious? We’ve got you covered! Omada Wine & Deli
+            feeds your simple needs for life’s better necessities; wine & food.
+          </p>
+        </div>
+        <Button text="Read more" />
       </article>
       <img src="/img/event-1.jpg" class="testimonalImg" alt="event" />
       <p class="name">by Emilie</p>
@@ -127,6 +127,7 @@ import Footer from "../component/Footer.astro";
         <img src="/img/pil-h.png" class="eventPil" alt="" />
       </article>
       <Button text="Read testimonial" />
+      <Form />
       <img src="/img/event-2.jpg" class="testimonalImg" alt="event" />
 
       <h2 class="deliText">PARTNERS</h2>
@@ -142,3 +143,5 @@ import Footer from "../component/Footer.astro";
     </header>
   </body>
 </html>
+
+<script></script>
