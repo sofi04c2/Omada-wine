@@ -70,6 +70,7 @@ body {
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
+  justify-content: space-between;
 }
 
 .testimonial h2 {
@@ -250,11 +251,22 @@ h2.deliText {
   }
 
   .testimonial {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
+
+.testimonial h2 {
+  font-size: 40px;
+}
 
  .deliNav {
   display: none;
  }
+
+p.name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+}
 
 }
