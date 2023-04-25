@@ -61,7 +61,7 @@ h2.wineTitle{
   color: white;
   text-align: center;
   font-size: 75px;
-  vertical-align: middle;
+  padding-top: 30%;
 }
 
 @media (min-width: 1024px) {
