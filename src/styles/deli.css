@@ -227,7 +227,7 @@ font-size: 60px;
   h2.deliText {
     padding: 30px;
     text-align: center;
-    font-size: x-large;
+    font-size: 50px;
   }
 
   .grid_1_1 {
@@ -250,12 +250,14 @@ font-size: 60px;
     width: 60%;
     font-size: 50px;
     line-height: 60px;
+    margin: 0 auto;
   }
 
   .grid_1_1_text h4 {
     width: 60%;
     font-size: 15px;
     line-height: 60px;
+    margin: 0 auto;
   }
 
   .grid_1_1_text p {
