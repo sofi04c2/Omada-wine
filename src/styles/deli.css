@@ -119,9 +119,6 @@ h2.deliText {
   padding: 40px;
 }
 
-.grid {
-}
-
 .grid_1_1_text p {
   width: 75%;
   text-align: center;
@@ -258,11 +255,6 @@ h4 {
     justify-content: space-between;
   }
 
-<<<<<<< HEAD
-  .deliNav {
-    display: none;
-  }
-=======
 .testimonial h2 {
   font-size: 40px;
 }
@@ -278,5 +270,4 @@ p.name {
   font-size: 15px;
 }
 
->>>>>>> a2e0d15579de2e1c53a91bb98ba34d3a17b4a7aa
 }
